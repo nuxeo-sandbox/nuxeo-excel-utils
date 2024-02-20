@@ -2,7 +2,7 @@
 <component name="nuxeo.excel.utils.operations">
 
   <extension point="operations" target="org.nuxeo.ecm.core.operation.OperationServiceComponent">
-    <operation class="nuxeo.excel.utils.operations.GetSheetPropertiesOp"/>
+    <operation class="nuxeo.excel.utils.operations.GetPropertiesOp"/>
   </extension>
 
 </component>

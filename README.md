@@ -6,9 +6,18 @@
 
 ## Features
 
-_TBD_
+_Tp Be Done and Continued_
 
-
+### Automation
+#### `Excel.GetProperties`(in `Files`)
+* input
+  * `Document` or `Blob`
+  * If `Document`, the optional `xpath` parameter is used to get the blob (default value is `file:content`)
+* output
+  * A JSONBlob, holding an object with the following sub-objects:
+  * `sheets`: An array with the names of the sheets
+  * `coreProperties`: An object with the core properties (title, creator, category, ...). See source code for all possible values
+  * `customProperties`: An object with the custom properties. **WARNING**: ONly String properties are returned with a value, all other are returned as `null` even if not null.
 
 
 ## Build and Install

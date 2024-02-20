@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: nuxeo.excel.utils
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-excel-utils-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo.excel.utils.nuxeo-excel-utils-core;singleton=true
+Nuxeo-Component: OSGI-INF/operations-contrib.xml

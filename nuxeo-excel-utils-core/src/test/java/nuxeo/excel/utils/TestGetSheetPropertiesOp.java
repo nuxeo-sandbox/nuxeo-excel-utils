@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotNull;
 
 import java.io.File;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
